@@ -97,7 +97,9 @@ Ubuntu 18.04 Install PCL 1.8.1 using binary packages:
   pop-up window. Click(tap) 'Configure', and 'Generate'.
   For JPEG_Turbo_INCLUDE_DIR and JPEG_Turbo_LIBRARY, select '/usr/include' and '/usr/lib/x86_64-linux-gnu/libjpeg.s§o'.
   
-  For Jetson computer with ubuntu 18.04 installed the librarys can be set with JPEG_Turbo_INCLUDE_DIR select '/usr/include'  and    '/usr/lib/aarch64-linux-gnu/libjpeg.so'
+*   For Jetson computer with ubuntu 18.04 installed the librarys can be set with JPEG_Turbo_INCLUDE_DIR select '/usr/include' and '/usr/lib/aarch64-linux-gnu/libjpeg.so'
+  
+  
 Now the codec libraries and evaluation tools can be build by typing 'make' in the directory
 that was specified in 'cmake-gui' to build the binaries. The application can be found in 'apps/evaluate_compression'.
 
